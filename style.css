@@ -1,4 +1,35 @@
-*{
- margin: 0;
- padding: 0;   
-}
+
+      *{
+        margin: 0;
+        padding: 0;   
+       }
+       body{
+           background-size: cover;
+           overflow: hidden;
+           height: 100vh;
+       }
+               .task-bar{
+                   width: 100%;
+                   display: flex;
+                   justify-content: center;
+                   position:absolute;
+                   bottom:-10px;
+                   background: #7D1210;
+                   z-index: 110;
+               }
+               .right{
+                   position: absolute;
+                   right: 0;
+                   margin: 5px;
+                   height: 85%;
+               }
+               .startmenu{
+                   position: absolute;
+                   bottom: -850px;
+                   width: 100%;
+                   text-align:center ;
+                   transition: all 0.3s ease-in;
+               }
+               .startmenu img{
+                   border-radius: 8px;
+               }
